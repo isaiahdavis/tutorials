@@ -1,0 +1,73 @@
+:root {
+	-webkit-f: 2em;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	font-family: 'Gotham', Verdana, san-serif;
+	font-weight: 300;
+}
+
+.js {
+	overflow: hidden;
+}
+
+aside,
+main {
+	height: 100%;
+	float: left;
+}
+
+aside {
+	width: calc(25% - (2*(2em)));
+	padding: 0 2em;
+}
+
+main {
+	width: calc(75% - (2*(2em)));
+	padding: 0 2em;
+}
+
+
+/*  Reset */
+
+nav ul,
+nav li {
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-padding-start: 0;
+}
+
+h3,
+p {
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+}
+
+
+/* Navigation */
+
+nav ul,
+nav li {
+	list-style-type: none;
+}
+
+nav h3 ~ ul li {
+	color: blue;
+}
+
+
+/* Helper */
+
+.clear {
+	clear: both;
+}
